@@ -203,6 +203,7 @@
             display: flex;
             gap: 15px;
             margin-top: 20px;
+            align-items: stretch;
         }
 
         .btn {
@@ -211,8 +212,12 @@
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
-            display: inline-block;
-            font-size: 0.75em;
+            display: inline-flex; /* Change from inline-block to inline-flex */
+            align-items: center; /* Add this */
+            justify-content: center; /* Add this */
+            text-align: center; /* Add this */
+            font-size: 0.9em;
+            min-height: 44px;
         }
 
         .btn-primary {
