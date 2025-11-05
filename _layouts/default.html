@@ -333,7 +333,7 @@
             
             <div class="stats">
                 <div class="stat-card">
-                    <span class="stat-number">6+</span>
+                    <span class="stat-number">15+</span>
                     <span class="stat-label">Projects</span>
                 </div>
                 <div class="stat-card">
@@ -354,6 +354,7 @@
             <button class="filter-btn" onclick="filterProjects('ai')">AI/ML</button>
             <button class="filter-btn" onclick="filterProjects('automation')">Automation</button>
             <button class="filter-btn" onclick="filterProjects('dev-tools')">Dev Tools</button>
+            <button class="filter-btn" onclick="filterProjects('performance')">High-Performance</button>
         </div>
 
         <div class="projects-grid" id="projectsGrid">
@@ -463,6 +464,149 @@
                 <div class="project-links">
                     <a href="https://github.com/wesleyscholl/VoltAI#readme" class="btn btn-primary">View README</a>
                     <a href="https://github.com/wesleyscholl/VoltAI" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="performance">
+                <span class="project-icon">🚀</span>
+                <h3 class="project-title">Vectro+</h3>
+                <p class="project-description">High-performance Rust toolkit for streaming compression, scalar quantization, and blazing-fast similarity search of large embedding datasets. Features 75-90% compression with sub-ms search times, plus a beautiful Web UI and REST API.</p>
+                <div class="project-tags">
+                    <span class="tag">Rust</span>
+                    <span class="tag">Embeddings</span>
+                    <span class="tag">Compression</span>
+                    <span class="tag">Vector Search</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/vectro-plus#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/vectro-plus" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="performance">
+                <span class="project-icon">⚡</span>
+                <h3 class="project-title">Vectro</h3>
+                <p class="project-description">Ultra-high-performance LLM embedding compressor written in Mojo. Achieves 787K-1.04M vectors/sec with 3.98x compression and 99.97% accuracy. Perfect for production ML systems requiring maximum throughput.</p>
+                <div class="project-tags">
+                    <span class="tag">Mojo</span>
+                    <span class="tag">Embeddings</span>
+                    <span class="tag">Quantization</span>
+                    <span class="tag">100% Coverage</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/vectro#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/vectro" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ai">
+                <span class="project-icon">🧬</span>
+                <h3 class="project-title">MorphUI</h3>
+                <p class="project-description">An adaptive, AI-driven frontend that transforms itself in real time based on your mood, behavior, and intent. Built with React, Node.js, and local Ollama AI for privacy-first intelligent UX that evolves with you.</p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Ollama</span>
+                    <span class="tag">Adaptive UI</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/MorphUI#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/MorphUI" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ai">
+                <span class="project-icon">🧠</span>
+                <h3 class="project-title">Autonomo</h3>
+                <p class="project-description">A living, self-evolving Node.js application that uses AI agents to plan, write, and execute its own features. Each run generates new functionality, creating a continuously growing system that demonstrates autonomous software evolution.</p>
+                <div class="project-tags">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">AI Agents</span>
+                    <span class="tag">Self-Evolving</span>
+                    <span class="tag">Autonomous</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/autonomo#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/autonomo" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ai">
+                <span class="project-icon">🧠</span>
+                <h3 class="project-title">Logician</h3>
+                <p class="project-description">Lightweight RAG-powered DevOps AI assistant using embeddings and vector search via Qdrant. Context-aware responses for infrastructure queries with a clean CLI interface and comprehensive test coverage.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">RAG</span>
+                    <span class="tag">Qdrant</span>
+                    <span class="tag">DevOps</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/logician#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/logician" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ai">
+                <span class="project-icon">💰</span>
+                <h3 class="project-title">Arbitra</h3>
+                <p class="project-description">AI-powered crypto trading agent focused on capital preservation and steady returns. Uses LLMs for market analysis with multi-tier asset allocation, robust risk management, and bulletproof circuit breakers.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Trading</span>
+                    <span class="tag">AI Strategy</span>
+                    <span class="tag">Risk Management</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/arbitra#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/arbitra" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ai">
+                <span class="project-icon">🌦️</span>
+                <h3 class="project-title">Weather & News AI Agent</h3>
+                <p class="project-description">Simple AI agent demonstrating intent detection and API integration without complex LLM dependencies. Handles weather forecasts, news headlines, time queries, and basic calculations through natural language.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">NLP</span>
+                    <span class="tag">API Integration</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/weather-news-agent#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/weather-news-agent" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dev-tools">
+                <span class="project-icon">🧠</span>
+                <h3 class="project-title">Algorithm Patterns</h3>
+                <p class="project-description">Comprehensive repository to master algorithm patterns and ace technical interviews. Includes pattern reference guide, Python implementations, comprehensive tests, and study resources covering all major patterns.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Algorithms</span>
+                    <span class="tag">Interview Prep</span>
+                    <span class="tag">Education</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/algos#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/algos" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dev-tools">
+                <span class="project-icon">🚀</span>
+                <h3 class="project-title">Bash Scripts Collection</h3>
+                <p class="project-description">Production-ready Bash scripts for DevOps engineers and system administrators. Handles system monitoring, backups, Kubernetes management, CI/CD integrations, and more with battle-tested automation utilities.</p>
+                <div class="project-tags">
+                    <span class="tag">Bash</span>
+                    <span class="tag">DevOps</span>
+                    <span class="tag">Automation</span>
+                    <span class="tag">Kubernetes</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/wesleyscholl/bash-scripts#readme" class="btn btn-primary">View README</a>
+                    <a href="https://github.com/wesleyscholl/bash-scripts" class="btn btn-secondary">GitHub</a>
                 </div>
             </div>
         </div>
